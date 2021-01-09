@@ -17,7 +17,7 @@ function miniMaxSum(arr) {
    
    for(let pos = 0; pos < arr.length; pos++){
        for(let i = 0; i < arr.length; i++){
-           if(arr[i] === arr[pos]){continue;}
+           if(i === pos){continue;}
            currSum += arr[i]
        }
        if(pos === 0){
@@ -41,3 +41,4 @@ function miniMaxSum(arr) {
 miniMaxSum([3, 6, 2, 9, 6])
 miniMaxSum([56, 23, 90, 1, 21])
 miniMaxSum([1, 2, 3, 4, 5])
+miniMaxSum([5, 5, 5, 5, 5])
