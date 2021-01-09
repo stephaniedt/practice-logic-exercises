@@ -2,5 +2,6 @@
 
 repositório para guardar prática de exercícios de lógica usando javascript
 
-fonte: https://wiki.python.org.br/ListaDeExercicios
-      https://www.hackerrank.com/
+**fonte** \
+https://wiki.python.org.br/ListaDeExercicios \
+https://www.hackerrank.com/
